@@ -1,0 +1,42 @@
+div {
+  width: 300px;
+  display: inline-block;
+  height: 300px;
+  position: relative;
+}
+
+div:nth-child(2), div:nth-child(5) {
+  background-color: #000;
+  color: #fff;
+
+}
+
+div:nth-of-type(2), div:nth-of-type(3) {
+  background-color: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+div:nth-of-type(2) ul, div:nth-of-type(3) ul {
+  list-style: none;
+  padding: 0;
+}
+
+.jobhistory h3, .references h3 {
+  margin-left: 10px;
+
+}
+
+.jobhistory h6, .references h6 {
+  margin-left: 16px;
+
+}
+
+div h3, div h6 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+span {
+  color: #ff0000;
+}
